@@ -1,0 +1,35 @@
+/* ALBUM CSS*/
+
+.album-card {
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  transform: scale(1);
+  transition: transform 0.25s ease, background-color 0.25s ease;
+  cursor: pointer;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 306px;
+}
+.album-card:hover {
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#HomePage {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navBar {
+  min-height: 8vh;
+  background-color: rgba(255, 255, 255, 0.253);
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+}
